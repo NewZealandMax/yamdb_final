@@ -1,4 +1,4 @@
-https://github.com/NewZealandMax/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![workflow status](https://github.com/NewZealandMax/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ### Описание проекта:
 Проект YaMDb - агрегатор отзывов пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка» и т.д. Список категорий может быть расширен администратором системы.
