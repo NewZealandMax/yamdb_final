@@ -11,9 +11,7 @@ services:
 
   web:
     image: newzealand/yamdb_final:latest
-    volumes:
-      - static_value:/app/static/
-      - media_value:/app/media/
+    restart: always
     depends_on:
       - db
     env_file:
