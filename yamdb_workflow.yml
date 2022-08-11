@@ -65,10 +65,10 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            sudo apt remove docker-compose
+            sudo apt install docker-compose
             sudo docker-compose stop
             sudo docker-compose rm web
-            sudo apt-get remove docker-compose
-            sudo apt install docker-compose
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
