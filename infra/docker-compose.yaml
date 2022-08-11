@@ -10,8 +10,7 @@ services:
       - ./.env
 
   web:
-    image: newzealand/yamdb_final
-    restart: always
+    image: newzealand/yamdb_final:latest
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
