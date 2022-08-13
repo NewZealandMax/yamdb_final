@@ -1,6 +1,6 @@
 ![workflow status](https://github.com/NewZealandMax/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-#### Проект развёрнут по вдресу (админка):
+#### Проект развёрнут по адресу (админка):
 http://84.201.152.123/admin/
 
 ### Описание проекта:
